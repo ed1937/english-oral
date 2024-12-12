@@ -1,0 +1,283 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom, #3d3d3d, #6e6e6e, #ffffff);
+  background-repeat: no-repeat;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  text-align: center;
+  display: block;
+}
+
+.content h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+  display: block;
+  margin-top: 300px;
+
+}
+
+.content p {
+  font-size: 1.2rem;
+  display: block;
+}
+
+.h1button {
+  background-color: #c0c0c0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-top: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+  text-align: center;
+}
+
+.h1button:hover {
+  background-color: #b4b4b4;
+}
+
+.subtitle{
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  margin-top: 200px;
+  display: block;
+  text-align: center;
+  margin-top: 1000px;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+}
+
+.checkmyasnwerbox{
+  font-size: 30px;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  background-color: #c0c0c079;
+  border-width: 3px;
+  font-weight: bolder;
+  border: solid;
+  margin-left: 50px;
+}
+
+input::placeholder{
+  color: black;
+}
+
+.checkbutton{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border: solid;
+  border-width: 3px;
+  text-align: center;
+  font-size: 30px;
+  cursor: pointer;
+  background-color: #c0c0c079;
+  font-weight: bolder;
+  margin-left: 25px;
+  text-align: center;
+}
+
+.resultmessage{
+  margin-left: 50px;
+  font-weight: bolder;
+  font-size: 50px;
+  color: black;
+}
+
+.start{
+  font-size: 55px;
+  text-align: center;
+  font-weight: bold;
+  color: black;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+}
+.population{
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  display: inline-block;
+  margin-left: 110px;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+}
+.desc{
+  font-size: 30px;
+  margin-left: 100px;
+  font-weight: bold;
+  color: black;
+}
+.stereotypes{
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  display: inline-block;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between; /* Ensures space between elements */
+  align-items: center; /* Aligns items vertically in the middle */
+  padding: 20px;
+ }
+
+ .text {
+  flex: 1; /* Takes up remaining space on the left */
+  margin-right: 20px; /* Space between text and image */
+ }
+
+ .image {
+  width: 500px; /* Set a fixed width for the image */
+  margin-right: 100px;
+ }
+
+.text{
+  font-size: 30px;
+  margin-left: 100px;
+  font-weight: bold;
+  color: black;
+}
+
+
+.geography{
+  font-size: 45px;
+  font-weight: bolder;
+  color: black;
+  display: inline-block;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+  
+}
+
+.storageunit {
+  display: flex;
+  justify-content: space-between; /* Ensures space between elements */
+  align-items: center; /* Aligns items vertically in the middle */
+  padding: 20px;
+ }
+
+ .texto {
+  font-size: 30px;
+  margin-right: 100px;
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+ }
+
+ .imageland {
+  width: 1000px; /* Set a fixed width for the image */
+  margin-left: 100px;
+  border-radius: 8px; /* Optional: adds rounded corners */
+ }
+
+ .cultura{
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+  text-align: center;
+  margin-bottom: 100px;
+ }
+
+ .armz {
+  display: block;
+  justify-content: space-between; /* Ensures space between elements */
+  align-items: center; /* Aligns items vertically in the middle */
+  padding: 20px;
+ }
+
+ .texto2 {
+  font-size: 30px;
+  margin-left: 110px;
+  font-weight: bold;
+  color: black;
+  text-align: justify;
+ }
+
+ .image-container {
+  display: flex; /* Aligns images in a row */
+  justify-content: space-around; /* Spaces images evenly */
+  margin-bottom: 100px;
+}
+
+.image-container img {
+  height: 300px; /* Keeps images proportional */
+  border-radius: 8px; /* Optional: adds rounded corners */
+}
+.space1{
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+.space2{
+  margin-top: 300px;
+  margin-bottom: 300px;
+}
+
+.space3{
+  margin-bottom: 200px;
+}
+ .politics{
+  font-size: 45px;
+  font-weight: bolder;
+  color: black;
+  display: inline-block;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+  margin-right: 100px;
+ }
+
+ .texto6{
+  font-size: 30px;
+  margin-right: 100px;
+  font-weight: bold;
+  color: black;
+ }
+.space4{
+  margin-bottom: 200px;
+}
+.space5{
+  margin-bottom: 800px;
+}
+.space6{
+  margin-bottom: 300px;
+}
+
+.people{
+  font-size: 45px;
+  font-weight: 900;
+  color: black;
+  display: inline-block;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+  margin-left: 100px;
+  margin-bottom: 100px;
+}
+
+.nome{
+  font-size: 25px;
+  font-weight: 900;
+  color: black;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+  text-align: center;
+}
+.webgrafia{
+  font-size: 25px;
+  font-weight: 900;
+  color: black;
+  text-shadow: 0px 0px 10px rgb(173, 173, 173);
+  text-align: center;
+}

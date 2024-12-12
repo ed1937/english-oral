@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      /* Style for the link */
+      a {
+          color: rgb(0, 0, 0); /* Link color */
+          text-decoration: none; /* Removes underline */
+          font-weight: bolder;
+          text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+          text-align: center;
+          font-size: 25px;
+      }
+      a:hover {
+          text-decoration: underline; /* Underline on hover */
+      }
+    </style>
+    <title>
+      English oral presentation
+    </title>
+    <link rel="stylesheet" href="oral_presentation.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body>
+     <div class="content">
+     <h1>Can you guess it ?!</h1>
+     <button onclick="scrollDown()" class="h1button">I will try my best</button>
+     </div>
+     <script>
+      function scrollDown() {
+          window.scrollBy({
+              top: 1514,
+              behavior: "smooth",
+          });
+      }
+     </script>
+  
+     <p class="subtitle">
+      The country I am thinking about is ...
+     </p>
+     <p class="start">
+      Lets start the hints!!!
+     </p>
+     <p class="population">
+      Population:
+     </p>
+     <p class="desc">
+      <br>&nbsp;&nbsp;&nbsp;- 9 millinon residents<br>&nbsp;&nbsp;&nbsp;- Capital with 1.9m residents<br>&nbsp;&nbsp;&nbsp;- One of Europe's smaller countries by population, though it has high standard of living<br>&nbsp;&nbsp;&nbsp;- Moderated population density<br>&nbsp;&nbsp;&nbsp;- High life expectation, low birth rate, aging population.
+     </p>
+  
+     <div class="container">
+      <div class="text">
+        <p class="stereotypes">
+          Stereotypes:
+         </p>    
+        <p><br>&nbsp;&nbsp;&nbsp;- Politeness and Formality<br>&nbsp;&nbsp;&nbsp;- Cultural Pride and Traditions<br>&nbsp;&nbsp;&nbsp;- Coffeehouse Culture<br>&nbsp;&nbsp;&nbsp;- Love for Nature and Outdoor Activities<br>&nbsp;&nbsp;&nbsp;- Rich, Hearty Cuisine<br>&nbsp;&nbsp;&nbsp;- Love of music.</p>
+      </div>
+        <img src="images/beer.png" alt="Description of image" class="image">
+     </div>
+
+     <p class="space1">
+       
+     </p>
+
+     <div class="storageunit">
+      <img src="images/alps.jpg" alt="Description of image" class="imageland">
+      <div class="texto">
+        <p class="geography">
+          Geography:
+         </p>    
+        <p><br>&nbsp;&nbsp;&nbsp;- Location and Borders<br>&nbsp;&nbsp;&nbsp;- The Alps<br>&nbsp;&nbsp;&nbsp;- Landscapes<br>&nbsp;&nbsp;&nbsp;- Rivers and Lakes<br>&nbsp;&nbsp;&nbsp;- Temperate climate.</p>
+      </div>
+     </div>
+
+     <p class="space2">
+       
+     </p>
+
+     <p class="cultura">
+      Cultural aspects
+    </p>  
+
+     <div class="image-container">
+      <img src="images/apfelstrudel.jpg" alt="Image1" class="image1">
+      <img src="images/market.jpg" alt="Image2" class="image2">
+      <img src="images/waltz.webp" alt="Image3" class="image3">
+     </div>
+
+     <div class="armz">
+      <div class="texto2">
+        <p><br>&nbsp;&nbsp;&nbsp;- Cuisine: Apfelstrudel (popular german pastry), Kaiserschmarrn (apple sauce and cranberries desert)...<br>&nbsp;&nbsp;&nbsp;- Celebrations: Salzburger Festspiele, Christmas Markets... <br>&nbsp;&nbsp;&nbsp;- Music: The Waltz and classical music.</p>
+     </div>
+
+      <p class="space3">
+         
+      </p>
+
+      <div class="storageunit">
+      <img src="images/politc.png" alt="Description of image" class="imageland">
+      <div class="texto8">
+        <p class="politics">
+          Government System:
+         </p>    
+        <p class="texto6"><br>&nbsp;&nbsp;&nbsp;- Type of Government: Federal parliamentary republic<br>&nbsp;&nbsp;&nbsp;- Head of State: President <br>&nbsp;&nbsp;&nbsp;- Head of Government: Chancellor <br>&nbsp;&nbsp;&nbsp;- Parliament Structure: Bicameral system.</p>
+       </div>
+      </div>
+
+
+      <p class="space4">
+         
+      </p>
+
+     <p class="people">
+      Famous people:
+     </p>
+
+     <div class="image-container">
+      <img src="images/arnold.webp" alt="Image4" class="image4">
+      <img src="images/mozart.jpeg" alt="Image5" class="image5">
+      <img src="images/ah.jpeg" alt="Image6" class="image6">
+     </div>
+
+     <div class="armz">
+      <p class="titulo">
+        Famous people:
+      </p>
+      <div class="texto2">
+        <p><br>&nbsp;&nbsp;&nbsp;- Arnold Schwarzenegger (30.7.1947)<br>&nbsp;&nbsp;&nbsp;- Wolfgang Amadeus Mozart (27.1.1756-5.12.1741)<br>&nbsp;&nbsp;&nbsp;- Adolf Hitler (20.4.1889-30.4.1945).</p>
+     </div>
+     <p class="space6">
+          
+     </p>
+     <div>
+      <input type="text" id="answerInput" placeholder="Type your answer here" class="checkmyasnwerbox">
+      <button onclick="checkAnswer()" class="checkbutton">Check Answer</button>
+      <p id="resultMessage" class="resultmessage"></p>
+     </div>
+
+     <p class="space4">
+         
+     </p>
+     
+     <p>
+      Watch this amazing video on 
+      <a href="https://en.wikipedia.org/wiki/Austria" target="_blank">FIND</a>.
+      <a href="https://european-union.europa.eu/principles-countries-history/eu-countries/austria_en" target="_blank">MORE</a>.
+      <a href="https://en.wikipedia.org/wiki/Arnold_Schwarzenegger" target="_blank">ABOUT</a>.
+      <a href="https://en.wikipedia.org/wiki/Arnold_Schwarzenegger" target="_blank">HERE</a>.
+     </p>
+
+     <script>
+      function checkAnswer() {
+          const userAnswer = document.getElementById("answerInput").value;
+
+          const correctAnswer = "Austria";
+
+          if (userAnswer === correctAnswer) {
+              document.getElementById("resultMessage").textContent = "Correct! 🎉";
+              document.getElementById("resultMessage").style.color = "green";
+          } else {
+              document.getElementById("resultMessage").textContent = "Incorrect, try again.";
+              document.getElementById("resultMessage").style.color = "red";
+          }
+      }
+  </script>
+
+      <p class="space5">
+         
+      </p>
+
+      <p class="nome">
+        Eduardo Moreira nº6 11ºA
+      </p>
+
+    </body>
+</html>
